@@ -1,4 +1,4 @@
-# Game of Life in JS
+# The Game of Life
 
-Fullstack Academy workshop.
+Grace Hopper Academy workshop creating Conway's Game of Life in object-oriented Javascript, implemented and extended by Luisa de Miranda.
 

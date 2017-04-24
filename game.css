@@ -1,29 +1,77 @@
 body {
-  padding: 10px;
+  background-color: #9E9E9E;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: bold;
 }
 
 h1, h2 {
   text-align: center;
+  color: #F5F5F5;
+  padding: 20px;
+  margin: 0 0 20px 0;
 }
+
+header {
+  background-color: #212121;
+  margin: 0;
+}
+
 #board{
   margin: 0 auto;
 }
 
 #board td{
-  border: 1px solid #ddd;
+  border: 1px solid #F5F5F5;
   width: 18px;
   height: 18px;
 }
 
 td.alive {
-  background-color: #8CC8DD;
+  background-color: #FFEB3B;
 }
 
 td.dead {
-  background-color: #fff;
+  background-color: #616161;
 }
 
 #control_panel {
   margin: 10px auto;
   text-align: center;
 }
+
+#step_btn {
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+  color: #212121;
+  font-weight: bold;
+}
+
+#play_btn {
+  background-color: #FFEB3B;
+  border-color: #FFEB3B;
+  color: #212121;
+  font-weight: bold;
+}
+
+#reset_btn {
+  background-color: #FFEB3B;
+  border-color: #FFEB3B;
+  color: #212121;
+  font-weight: bold;
+}
+
+#clear_btn {
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+  color: #212121;
+  font-weight: bold;
+}
+
+.dark-primary-color    { background: #616161; }
+.default-primary-color { background: #9E9E9E; }
+.light-primary-color   { background: #F5F5F5; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #FFEB3B; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
